@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>project</title>
+</head>
+
+<style>
+    body{
+        background-image: linear-gradient(paleturquoise,blueviolet);
+    }
+    h4{
+        border:3px solid burlywood;
+        background-color: aquamarine;
+        animation-name:ani;
+        animation-duration: 5s;
+
+    }
+    @keyframes ani{
+        form{background-color:aquamarine;}
+        to{background-color:goldenrod}
+    }
+   
+    
+        
+    
+    h3{
+        border:3px solid burlywood;
+        width:10%;
+        height:20px;
+        background-color: aquamarine;
+        border-radius:15px;
+        animation-name:anim;
+        animation-duration:5s;
+
+    }
+    @keyframes anim{
+        form{background-color:aquamarine;}
+        to{background-color:goldenrod}
+    }
+    #div3{
+        border:3px solid burlywood;
+        width:12%;
+        height:25px;
+        background-color: aquamarine;
+        border-radius:15px;
+
+    }
+    #div1 ::first-letter{
+        color:blue;
+        font-family:cursive;
+
+    }
+    #div4{
+        border:3px solid burlywood;
+        width:12%;
+        height:25px;
+        background-color: aquamarine;
+        border-radius:15px;
+    }
+    #div5{
+        border:3px solid burlywood;
+        width:30%;
+        height:25px;
+        background-color: aquamarine;
+        border-radius:15px;
+    }
+    img{
+        height:400px;
+        width:500px;
+    }
+    #div6{
+        border:3px solid burlywood;
+        width:30%;
+        height:25px;
+        background-color: aquamarine;
+        border-radius:15px;
+    }
+
+
+
+    
+
+</style>
+
+<body style="text-align:center">
+    <h4> <marquee behavior="" direction="left">PERFORMANCE ANALYSIS ON STUDENT FEEDBACK FOR FACULTY USING LSTM ALGORITHM</marquee></h4><br>
+   <center>
+    <div id="div">
+    <h3>Abstract</h3>
+</div>
+      </center>
+      <div id="div1">
+      <p style="font-size:15px">
+        This study proposes a supervised aspect-based opinion mining system based on a two-layered LSTM model for evaluating faculty teaching performance through students' feedback. The model predicts the aspects described within the feedback and specifies their orientation. The system achieves a good accuracy of 91% for aspect extraction and 93% for sentiment polarity detection using the domain embedding layer. The proposed model is simple in architecture, resulting in less complexity. The model was tested on a manually tagged data set from Sukur IBA University and a standard SemEval-2014 data set. This study is the first attempt that uses deep learning for performing aspect-based sentiment analysis on students' feedback.
+
+      </p>
+    </div>
+    <center>
+    
+    <h4 id="div3">Existing System</h4>
+</center>
+<p>The quantitative responses are then aggregated and used as a measure to gauge the teaching quality of concerned faculty members. Besides, this is also considered as one of the key factors in the annual appraisal process. Though student feedback form is not only comprised of closed ended questions, it also provides students with a space for textual comments, an open ended feedback to express their thoughts and experiences.However, manual handling of qualitative opinions is a very tedious task</p>
+
+<center>
+
+<h4 id="div4">Proposed System</h4>
+</center>
+<p>Our proposed system uses ABSA to evaluate the teaching quality of a faculty member by analyzing student feedback. It consists of a two-layered LSTM model for aspect extraction and sentiment classification, with the first layer categorizing sentences into six aspects and the second layer predicting the sentiment orientation for each aspect. The advantage of this model is that it can be decoupled to perform individual tasks. </p>
+<center>
+    
+    <h4 id="div5">Architecture</h4>
+</center>
+<img src="Screenshot 2023-08-04 224612.png" alt="">
+<center>
+    
+    <h4 id="div6">Modules and graph</h4>
+</center>
+
+
+<center>
+<img src="Screenshot 2023-08-04 224559.png" alt="">
+</center>
+
+
+</body>
+</html>
